@@ -1,0 +1,80 @@
+.contain {
+  padding: 20px 50px;
+}
+.contain > div {
+  display: flex;
+  gap: 15px;
+}
+.contain > div > span {
+  color: green;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.contain > div > p {
+  color: rgb(113, 95, 95);
+  font-size: 1.1rem;
+}
+
+.basketItem {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  gap: 10px;
+  width: 100%;
+  justify-items: center;
+}
+.basketCard {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 2px 2px 3px black;
+}
+.basketCard img {
+  width: 40%;
+  aspect-ratio: 1;
+}
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+}
+.cardDetails > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.cardDetails > div > span {
+  color: rgb(126, 107, 107);
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.cardDetails > div > p {
+  font-size: 1.1rem;
+}
+hr {
+  border: 2px solid rgb(9, 234, 181);
+}
+@media screen and (max-width: 500px) {
+  .basketItem {
+    grid-template-columns: 1fr;
+  }
+  .basketCard {
+    display: flex;
+    flex-direction: row;
+  }
+  .basketCard img {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .basketCard {
+    display: flex;
+    flex-direction: column;
+  }
+  .basketCard img {
+    width: 100%;
+  }
+}

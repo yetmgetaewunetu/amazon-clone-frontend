@@ -1,0 +1,104 @@
+.cart_container {
+  width: 60%;
+  margin: 100px auto;
+  position: relative;
+}
+.cart_item {
+  width: 100%;
+  margin: 20px;
+  border: 1px solid black;
+}
+.cart_container h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: "Playwrite DE Grund", system-ui;
+}
+.cart_container h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+  font-family: "Playwrite DE Grund", system-ui;
+  color: #1a1a;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-height: 200px;
+  padding: 10px 20px;
+}
+.cart_image {
+  height: 150px;
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+.price {
+  font-weight: bolder;
+  color: green;
+}
+.removeBtn {
+  justify-self: end;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: red;
+  font-size: 1.4rem;
+  margin-right: 50px;
+  cursor: pointer;
+  transition: background 0.3s;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+.removeBtn:hover {
+  background: rgba(249, 80, 80, 0.74);
+}
+.proceed {
+  position: fixed;
+  top: 100px;
+  right: 100px;
+  padding: 10px;
+  border: 1px solid rgb(148, 147, 147);
+  /* background: gainsboro; */
+  display: flex;
+  border-radius: 5px;
+  gap: 3px;
+  flex-direction: column;
+}
+.proceed div {
+  display: flex;
+  gap: 5px;
+}
+.spanTxt {
+  font-size: 1rem;
+  color: green;
+  font-weight: bold;
+}
+.checkout {
+  background: rgb(252, 171, 20);
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.amountCtrl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.amountCtrl button {
+  width: 50px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: lighter;
+}

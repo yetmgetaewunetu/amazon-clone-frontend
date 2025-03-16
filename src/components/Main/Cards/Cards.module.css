@@ -1,0 +1,57 @@
+.cardup {
+  height: 100%;
+  padding: 0;
+  position: relative;
+}
+.card {
+  box-shadow: 2px 2px 5px rgb(81, 75, 75);
+  width: 100%;
+  padding: 3px 3px 40px 3px;
+  align-items: center;
+  justify-items: center;
+  position: relative;
+  cursor: pointer;
+  height: 100%;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 1;
+}
+.title {
+  padding: 5px 5px;
+}
+.rating {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+.price {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: auto;
+  margin-left: 30%;
+  margin-bottom: 20px;
+}
+.button {
+  width: 95%;
+  padding: 5px 10px;
+  text-align: center;
+  border-radius: 0px;
+  width: 100%;
+  background: rgba(246, 175, 43, 0.8);
+  font-size: 1.4rem;
+  position: absolute;
+  bottom: 0px;
+  border: none;
+  outline: none;
+  margin: auto;
+  justify-self: center;
+  align-self: center;
+  cursor: pointer;
+  display: none;
+}

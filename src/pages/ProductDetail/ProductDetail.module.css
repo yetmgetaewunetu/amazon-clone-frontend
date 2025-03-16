@@ -1,0 +1,73 @@
+.title {
+  font-size: 1.8rem;
+  color: #1a1a;
+  text-align: center;
+  font-family: "Playwrite DE Grund", system-ui;
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+.detail_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-top: 20px;
+  width: 100vw;
+  gap: 20px;
+  padding: 10px;
+}
+.detail_container img {
+  height: 55%;
+  max-height: 200px;
+  margin: 0 auto;
+}
+.item_description {
+  padding: 20px;
+}
+.item_description * {
+  margin: 10px 0;
+  padding: 0;
+}
+h3 span {
+  color: rgb(72, 152, 72);
+  font-weight: bold;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 20px;
+}
+.p {
+  font-size: 20px;
+  width: 70%;
+}
+.button {
+  width: 250px;
+  padding: 6px 10px;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(249, 164, 5);
+  font-size: 1.4rem;
+  margin: auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .detail_container {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .rating {
+    justify-content: center;
+  }
+  .p {
+    text-align: center;
+    margin: 10px auto;
+    width: 85%;
+  }
+}

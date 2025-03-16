@@ -1,0 +1,39 @@
+.playwrite-de-grund-me {
+  font-family: "Playwrite DE Grund", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.cards_container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: stretch;
+  gap: 90px;
+  padding: 100px 0;
+}
+.pageTitle {
+  font-size: 3rem;
+  margin: auto;
+  text-align: center;
+  font-family: "Playwrite DE Grund", system-ui;
+  color: #1a1a;
+  padding: 30px 0 10px;
+}
+@media screen and (max-width: 1000px) {
+  .cards_container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 710px) {
+  .cards_container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 450px) {
+  .cards_container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

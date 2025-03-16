@@ -1,0 +1,84 @@
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 350px;
+  margin: auto;
+}
+.logo {
+  width: 200px;
+  margin: 0 0 -50px 0;
+}
+.new-to-amazon {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px;
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.span {
+  font-weight: bold;
+}
+.p {
+  font-size: 0.8rem;
+}
+.a {
+  color: blue;
+  font-size: 0.8rem;
+}
+input {
+  padding: 6px;
+  border: 2px solid rgb(172, 169, 169);
+  outline: none;
+  border-radius: 5px;
+}
+.button {
+  padding: 7px;
+  border-radius: 10px;
+  background: #f7ca00;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.a:hover {
+  text-decoration: underline;
+}
+.new_to_amazon {
+  font-size: 16px; /* adjust size */
+  color: #666;
+  padding: 10px;
+}
+.createAccount {
+  background: transparent;
+  border: 1px solid rgb(163, 162, 162);
+  width: 100%;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 10px;
+}
+.footer_links {
+  display: flex;
+  justify-content: space-around;
+  /* gap: 15px; */
+  width: 100%;
+}
+.copyright {
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+}

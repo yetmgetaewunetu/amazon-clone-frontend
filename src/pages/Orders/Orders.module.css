@@ -1,0 +1,16 @@
+.container {
+  padding: 60px 30px 30px 30px;
+  background: gainsboro;
+}
+.container h1 {
+  padding: 10px;
+  background: white;
+  margin: auto;
+  width: 100%;
+  border-bottom: 5px solid salmon;
+  font-size: 2.5rem;
+  font-family: "Poppins";
+}
+.orders {
+  background: white;
+}
